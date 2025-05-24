@@ -56,10 +56,10 @@ export default function Navbar() {
               <Link href="/productos" className="text-gray-700 hover:text-lavender-600 transition-colors">
                 Productos
               </Link>
-              <Link href="#sobre-nosotras" className="text-gray-700 hover:text-lavender-600 transition-colors">
-                Sobre Nosotras
+              <Link href="/#sobre-nosotras" className="text-gray-700 hover:text-lavender-600 transition-colors">
+                Sobre Mi
               </Link>
-              <Link href="#contacto" className="text-gray-700 hover:text-lavender-600 transition-colors">
+              <Link href="/#contacto" className="text-gray-700 hover:text-lavender-600 transition-colors">
                 Contacto
               </Link>
             </div>

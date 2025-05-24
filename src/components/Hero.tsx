@@ -81,19 +81,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Carousel Controls */}
-      <button
-        onClick={prevImage}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 p-2 rounded-full hover:bg-white transition-colors"
-      >
-        <ChevronLeft size={24} className="text-lavender-600" />
-      </button>
-      <button
-        onClick={nextImage}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 p-2 rounded-full hover:bg-white transition-colors"
-      >
-        <ChevronRight size={24} className="text-lavender-600" />
-      </button>
 
       {/* Carousel Indicators */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
