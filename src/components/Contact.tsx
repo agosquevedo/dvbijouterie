@@ -56,11 +56,7 @@ const handleSubmit = async (e: React.FormEvent) => {
           <div className="bg-gradient-to-br from-lavender-50 to-pink-50 rounded-2xl p-8">
             <h3 className="font-cursive text-2xl text-lavender-600 mb-6">Envíanos un mensaje</h3>
 
-            <form
-              action="https://formspree.io/f/mvgajozn"
-              method="POST"
-              className="space-y-6"
-            >
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="nombre" className="block text-sm font-medium text-gray-700 mb-2">
                   Nombre *
